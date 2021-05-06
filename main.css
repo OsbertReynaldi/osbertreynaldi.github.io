@@ -262,7 +262,7 @@ main img {
 .hvr-grow-shadow:hover,
 .hvr-grow-shadow:focus,
 .hvr-grow-shadow:active {
-  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0);
   -webkit-transform: scale(1.1);
   transform: scale(1.1);
 }
