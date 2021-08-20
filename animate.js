@@ -23,3 +23,7 @@ sliders.forEach(slider => {
 faders.forEach(fader => {
     appearOnScroll.observe(fader);
 })
+
+function alertFunction(){
+    alert("This project is not finished yet");
+}
