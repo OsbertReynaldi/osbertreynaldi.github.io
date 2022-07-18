@@ -395,7 +395,7 @@ main img {
 }
 
 #design:hover h1{
-  color: white;
+  color: orange;
   transition: color 0.4s ease;
 }
 
@@ -403,7 +403,7 @@ main img {
   transition: color 0.4s ease;
 }
 #design:hover h3{
-  color: white;
+  color: orange;
   transition: color 0.4s ease;
 }
 
