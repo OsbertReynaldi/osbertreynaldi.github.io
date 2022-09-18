@@ -182,7 +182,7 @@ main img {
   margin-bottom: -3%;
   align-items: center;
   text-align: left;
-  color: violet;
+  color: rgb(238, 130, 238);
 }
 
 .info-page {
@@ -356,8 +356,7 @@ main img {
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 1px 1px 1px 1px #6c63ff;
-  -webkit-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
   -webkit-transition-property: box-shadow, transform;
   transition-property: box-shadow, transform;
@@ -365,9 +364,10 @@ main img {
 .hvr-grow-shadow2:hover,
 .hvr-grow-shadow2:focus,
 .hvr-grow-shadow2:active {
-  box-shadow: 10px 10px 10px #6c63ff;
   -webkit-transform: scale(1.1);
-  transform: scale(1.2);
+  transform: scale(1.05);
+  box-shadow: 0px 0px 10px 2px white;
+
 }
 
 #design {
@@ -395,7 +395,7 @@ main img {
 }
 
 #design:hover h1{
-  color: orange;
+  color: white;
   transition: color 0.4s ease;
 }
 
@@ -403,7 +403,7 @@ main img {
   transition: color 0.4s ease;
 }
 #design:hover h3{
-  color: orange;
+  color: white;
   transition: color 0.4s ease;
 }
 
@@ -417,6 +417,7 @@ main img {
   justify-content: space-evenly;
   align-content: center;
   align-items: center;
+  
 }
 
 .design-icon img{
@@ -424,8 +425,8 @@ main img {
   height: 30vh;
   display: block;
   margin: auto;
-  border-radius: 50px;
-  box-shadow: 5px 5px 5px 2.5px violet;
+  border-radius: 12px;
+  box-shadow: 0px 0px 10px 2px #1f1f1f;
 }
 
 #docs {
